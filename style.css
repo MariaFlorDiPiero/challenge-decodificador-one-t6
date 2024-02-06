@@ -16,16 +16,15 @@
     flex-direction: column;
     background-color: #ffffff;
     width: 400px;
-    height: 944px;
+    height: 800px;
     margin: 0 0 0 1460px;
-    margin-top: -750px;
+    margin-top: -650px;
     border-radius: 32px;
 }
 
 .img_menino {
     margin:30px;
-    margin-top: 200px;
-    
+    margin-top: 200px;    
     
 }
 
@@ -64,12 +63,11 @@
     width: 328px;
     height: 67px;
     margin: 0 0 0 500px;
-    margin-top: 300px;
     background-color: #0A3871;
     border-radius: 24px;
     border: none;
     font-family: 'Inter', sans-serif;
-    color: #ffffff;   
+    color: #ffffff;  
    
 }
 
@@ -81,17 +79,63 @@
     margin: 0 0 0 50px;
     background-color: #D8DFE8;
     border-radius: 24px;
-    border: #0A3871;
+    border: 1px solid #0A3871;
     font-family: 'Inter', sans-serif;
     color: #0A3871; 
     
 }
 
 .conteudo_alerta {
+    display: flex;
+    justify-content: center;
     font-family:'Inter', sans-serif;
     font-size: 12px;
     font-weight: 400;
     color: #495057;
-    margin: 10px;
+    padding: 15px;
+    margin-left: -600px;
+    margin-top: -30px;   
 }
 
+.imagem_icone {
+    display: flex;
+    justify-content: center;
+    margin-left: 520px;
+    margin-top: 200px; 
+        
+}
+
+.conteudo_rodape {
+    font-family:'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #0A3871;
+    text-align: center;
+   
+}
+
+.conteudo_linkedin {
+    background-color: #0A3871;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 2px;
+    margin: 900px;
+    
+}
+
+.conteudo_github {
+    background-color: #0A3871;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 2px;
+    margin: -900px;    
+}
