@@ -7,22 +7,19 @@
     <title>Decodificador</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/logo.png" type="image/png">
-   
-    
-    
-
+    <script src="script.js"></script>
 </head>
 
 <body>
     <main>
         <section>
             <img src="assets/logo.png" alt="logo-alura" class="logo">
-            <textarea class="conteudo_caixa">Digite seu texto</textarea>
+            <textarea class="conteudo_caixa" type="text" id="texto">Digite seu texto</textarea>
             <div>
                 <img src="assets/icon.png" class="imagem_icone">
                 <div><p class="conteudo_alerta">Apenas letras minúsculas e sem acento.</p></div>
-                <button class="botao_cripto">Criptografar</button>
-                <button class="botao_descripto">Descriptografar</button>
+                <button class="botao_cripto" id="criptografar">Criptografar</button>
+                <button class="botao_descripto" id="descriptografar">Descriptografar</button>
             </div>
         </section>
         <section class="conteudo_cripto_pronta">
