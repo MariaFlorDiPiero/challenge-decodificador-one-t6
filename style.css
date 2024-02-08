@@ -7,7 +7,9 @@
 }
 
 .logo {
-    margin-bottom: 15%;
+    
+    margin-bottom: 200px;
+    margin-left: 20px;
     
 }
 .conteudo_cripto_pronta {
@@ -18,7 +20,7 @@
     width: 400px;
     height: 800px;
     margin: 0 0 0 1460px;
-    margin-top: -650px;
+    margin-top: -850px;
     border-radius: 32px;
 }
 
@@ -51,10 +53,15 @@
 
 .conteudo_caixa {
     font-family: 'Inter', sans-serif;
-    font-size: 32px;
-    color:#0A3871;
-    margin: 8%;
+    font-size: 32px;    
     border: none;
+    margin-left: 370px;
+    margin-top: 200px;
+
+}
+
+.conteudo_caixa::placeholder {
+    color:#0A3871;
 }
 
 .botao_cripto {
@@ -62,13 +69,13 @@
     align-items: flex-end;
     width: 328px;
     height: 67px;
-    margin: 0 0 0 500px;
+    margin: -200px 0 0 500px;
     background-color: #0A3871;
     border-radius: 24px;
     border: none;
     font-family: 'Inter', sans-serif;
-    color: #ffffff;  
-   
+    color: #ffffff;
+    position: absolute;
 }
 
 .botao_descripto {
@@ -76,12 +83,13 @@
     align-items: flex-end;
     width: 328px;
     height: 67px;
-    margin: 0 0 0 50px;
+    margin: -200px 0 0 900px;
     background-color: #D8DFE8;
     border-radius: 24px;
     border: 1px solid #0A3871;
     font-family: 'Inter', sans-serif;
-    color: #0A3871; 
+    color: #0A3871;
+    position: absolute; 
     
 }
 
@@ -93,15 +101,16 @@
     font-weight: 400;
     color: #495057;
     padding: 15px;
-    margin-left: -600px;
-    margin-top: -30px;   
+    margin-left: -620px;
+    margin-top: -30px;
+    margin-bottom: 200px;   
 }
 
 .imagem_icone {
     display: flex;
     justify-content: center;
-    margin-left: 520px;
-    margin-top: 200px; 
+    margin-left: 510px;
+    margin-top: 400px; 
         
 }
 
@@ -139,3 +148,4 @@
     padding: 2px;
     margin: -900px;    
 }
+
