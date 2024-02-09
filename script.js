@@ -6,6 +6,10 @@ document.addEventListener("DOMContentLoaded", function() {
     
     criptografarBtn.addEventListener("click", function(){
         const texto = textoInput.value;
+        if (!texto.trim()) {
+            alert("Por favor, preencha a caixa de texto antes de criptografar.");
+            return;
+        }
         if (verificarTexto(texto)) {
         const textoCriptografado = criptografar(texto);
         exibirResultado(textoCriptografado);
@@ -14,6 +18,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     descriptografarBtn.addEventListener("click", function(){
         const texto = textoInput.value;
+        if (!texto.trim()) {
+            alert("Por favor, preencha a caixa de texto antes de descriptografar.");
+            return;
+        }
         const textoDescriptografado = descriptografar(texto);
         exibirResultado(textoDescriptografado);
     })
