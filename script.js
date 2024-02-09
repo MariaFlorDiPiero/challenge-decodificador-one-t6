@@ -1,8 +1,11 @@
 //Lógica principal para função de criptografar e descriptografar, evento dos botões
 document.addEventListener("DOMContentLoaded", function() {
-    const textoInput = document.getElementById("texto");
+    const textoInput = document.getElementById("resultado-texto");
     const criptografarBtn = document.getElementById("criptografar");
     const descriptografarBtn = document.getElementById("descriptografar");
+    const textoCriptografadoElement = document.getElementById("texto-criptografado");
+    const textoDescriptografadoElement = document.getElementById("texto-descriptografado");
+    const conteudoCriptoProntaElement = document.querySelector(".conteudo_cripto_pronta")
     
     criptografarBtn.addEventListener("click", function(){
         const texto = textoInput.value;
@@ -11,10 +14,10 @@ document.addEventListener("DOMContentLoaded", function() {
             return;
         }
         if (verificarTexto(texto)) {
-        const textoCriptografado = criptografar(texto);
-        exibirResultado(textoCriptografado);
-    }
-    })
+            const textoCriptografado = criptografar(texto);
+            conteudoCriptoProntaElement.textContent = textoCriptografado;
+        }
+    });
 
     descriptografarBtn.addEventListener("click", function(){
         const texto = textoInput.value;
@@ -23,10 +26,9 @@ document.addEventListener("DOMContentLoaded", function() {
             return;
         }
         const textoDescriptografado = descriptografar(texto);
-        exibirResultado(textoDescriptografado);
-    })
-
-})
+        conteudoCriptoProntaElement.textContent = textoDescriptografado;
+    });
+});
 
 //Lógica de criptografia
 function criptografar(texto){
@@ -55,9 +57,5 @@ function verificarTexto(texto) {
         return false;
     }
     return true;
-}
-
-function exibirResultado(resultado){
-    alert(resultado);
 }
 

@@ -149,3 +149,10 @@
     margin: -900px;    
 }
 
+#texto-descriptografado {
+    display: none;
+}
+
+#texto-criptografado {
+    display: none;
+}
