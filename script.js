@@ -3,9 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const textoInput = document.getElementById("resultado-texto");
     const criptografarBtn = document.getElementById("criptografar");
     const descriptografarBtn = document.getElementById("descriptografar");
-    const textoCriptografadoElement = document.getElementById("texto-criptografado");
-    const textoDescriptografadoElement = document.getElementById("texto-descriptografado");
-    const conteudoCriptoProntaElement = document.querySelector(".conteudo_cripto_pronta")
+    const conteudoCriptoProntaElement = document.querySelector(".conteudo_cripto_pronta");
     
     criptografarBtn.addEventListener("click", function(){
         const texto = textoInput.value;
@@ -58,4 +56,5 @@ function verificarTexto(texto) {
     }
     return true;
 }
+
 

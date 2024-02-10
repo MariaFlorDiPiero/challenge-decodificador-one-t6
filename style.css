@@ -20,8 +20,15 @@
     width: 400px;
     height: 800px;
     margin: 0 0 0 1460px;
-    margin-top: -850px;
+    margin-top: -880px;
     border-radius: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #495057;
+    padding: 15px;
+    position: relative;    
 }
 
 .img_menino {
@@ -149,10 +156,3 @@
     margin: -900px;    
 }
 
-#texto-descriptografado {
-    display: none;
-}
-
-#texto-criptografado {
-    display: none;
-}
