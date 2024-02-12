@@ -13,7 +13,13 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         if (verificarTexto(texto)) {
             const textoCriptografado = criptografar(texto);
-            conteudoCriptoProntaElement.textContent = textoCriptografado;
+            //conteudoCriptoProntaElement.textContent = textoCriptografado;
+            conteudoCriptoProntaElement.querySelector(".caixa_texto_cripto").value = textoCriptografado;
+            // Exibe a caixa de texto após o clique
+            conteudoCriptoProntaElement.querySelector(".caixa_texto_cripto").style.display = "block";
+            conteudoCriptoProntaElement.querySelector(".img_menino").style.display = "none";
+            conteudoCriptoProntaElement.querySelector(".conteudo_nenhuma").style.display = "none";
+            conteudoCriptoProntaElement.querySelector(".conteudo_digite").style.display = "none";
         }
     });
 
@@ -24,7 +30,14 @@ document.addEventListener("DOMContentLoaded", function() {
             return;
         }
         const textoDescriptografado = descriptografar(texto);
-        conteudoCriptoProntaElement.textContent = textoDescriptografado;
+        //conteudoCriptoProntaElement.textContent = textoDescriptografado;
+        conteudoCriptoProntaElement.querySelector(".caixa_texto_cripto").value = textoDescriptografado;
+        // Exibe a caixa de texto após o clique
+        conteudoCriptoProntaElement.querySelector(".caixa_texto_cripto").style.display = "block";
+          // Oculta os elementos
+          conteudoCriptoProntaElement.querySelector(".img_menino").style.display = "none";
+          conteudoCriptoProntaElement.querySelector(".conteudo_nenhuma").style.display = "none";
+          conteudoCriptoProntaElement.querySelector(".conteudo_digite").style.display = "none";
     });
 });
 

@@ -8,7 +8,7 @@
 
 .logo {
     
-    margin-bottom: 200px;
+    margin-bottom: 500px;
     margin-left: 20px;
     
 }
@@ -20,7 +20,7 @@
     width: 400px;
     height: 800px;
     margin: 0 0 0 1460px;
-    margin-top: -880px;
+    margin-top: -1500px;
     border-radius: 32px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -64,6 +64,7 @@
     border: none;
     margin-left: 370px;
     margin-top: 200px;
+    height: 400px;
 
 }
 
@@ -76,7 +77,7 @@
     align-items: flex-end;
     width: 328px;
     height: 67px;
-    margin: -200px 0 0 500px;
+    margin: -900px 0 0 500px;
     background-color: #0A3871;
     border-radius: 24px;
     border: none;
@@ -90,7 +91,7 @@
     align-items: flex-end;
     width: 328px;
     height: 67px;
-    margin: -200px 0 0 900px;
+    margin: -900px 0 0 900px;
     background-color: #D8DFE8;
     border-radius: 24px;
     border: 1px solid #0A3871;
@@ -109,16 +110,16 @@
     color: #495057;
     padding: 15px;
     margin-left: -620px;
-    margin-top: -30px;
-    margin-bottom: 200px;   
+    margin-top: -10px;
+    margin-bottom: 900px;
+      
 }
 
 .imagem_icone {
     display: flex;
     justify-content: center;
     margin-left: 510px;
-    margin-top: 400px; 
-        
+    margin-bottom: -28px;
 }
 
 .conteudo_rodape {
@@ -127,7 +128,6 @@
     font-weight: 400;
     color: #0A3871;
     text-align: center;
-   
 }
 
 .conteudo_linkedin {
@@ -154,5 +154,29 @@
     font-weight: 400;
     padding: 2px;
     margin: -900px;    
+}
+
+.caixa_texto_cripto {
+    display: none;
+    width: 90%;
+    height: 500px;
+    max-width: 300px;
+    margin: 0 auto;
+    overflow: auto;
+    text-align: center;
+    overflow-y: scroll;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+}
+
+
+
+.conteudo_rodape {
+    margin-left: -180px;
+}
+
+.conteudo_linkedin {
+    margin-left: 815px;
 }
 
