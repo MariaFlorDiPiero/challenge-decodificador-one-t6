@@ -60,6 +60,7 @@
 
 .conteudo_caixa {
     font-family: 'Inter', sans-serif;
+    color: #0A3871;
     font-size: 32px;    
     border: none;
     margin-left: 370px;
@@ -155,10 +156,11 @@
     overflow-y: scroll;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
+    color:#0A3871;
     font-size: 24px;
+    border: none;
+    background-color: #ffffff;
 }
-
-
 
 .conteudo_rodape {
     margin-left: -180px;
@@ -168,3 +170,99 @@
     margin-left: 815px;
 }
 
+.botao_copiar {
+    display: none;
+    width: 330px;
+    height: 67px;
+    margin: 80px auto 20px;
+    background-color: #D8DFE8;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    font-family: 'Inter', sans-serif;
+    color: #0A3871;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*Media-query para telas de 768px e 1023px (tablets)*/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .conteudo_cripto_pronta {
+      width: 80%; 
+      margin: 0 auto;
+    }
+  
+    .img_menino {
+      margin: 20px;
+    }
+  
+    .conteudo_nenhuma,
+    .conteudo_digite,
+    .conteudo_caixa {
+      font-size: 20px;
+    }
+  
+    .botao_cripto,
+    .botao_descripto {
+      width: 250px;
+      margin: 0 auto;
+    }
+  
+    .conteudo_alerta {
+      margin-left: -400px;
+    }
+  
+    .imagem_icone {
+      margin-left: 380px;
+    }
+  }
+
+/*media-query para telas menores que 768px (dispositivos móveis) */
+
+@media (max-width: 767px) {
+    .conteudo_cripto_pronta {
+      width: 100%;
+      margin: 0;
+      border-radius: 0;
+    }
+  
+    .img_menino {
+      display: none;
+    }
+  
+    .conteudo_nenhuma,
+    .conteudo_digite,
+    .conteudo_caixa {
+      font-size: 16px;
+    }
+  
+    .botao_cripto,
+    .botao_descripto {
+      width: 100%;
+      margin: 20px 0;
+    }
+  
+    .conteudo_alerta {
+      margin-left: 0;
+    }
+  
+    .imagem_icone {
+      margin: 0 auto;
+    }
+  
+    .caixa_texto_cripto {
+      display: block;
+    }
+  
+    .conteudo_rodape {
+      margin-left: 0;
+    }
+  
+    .conteudo_linkedin {
+      margin-left: 0;
+    }
+  
+    .botao_copiar {
+      display: block;
+    }
+  }

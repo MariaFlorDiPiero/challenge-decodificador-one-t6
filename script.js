@@ -70,4 +70,23 @@ function verificarTexto(texto) {
     return true;
 }
 
+document.addEventListener("DOMContentLoaded", function() {
+    const copiarBtn = document.getElementById("copiar");
+
+    copiarBtn.addEventListener("click", function() {
+        const textoCripto = document.querySelector(".caixa_texto_cripto");
+        textoCripto.select();
+        document.execCommand("copy");
+        alert("Texto copiado para a área de transferência!");
+    });
+
+    // Eventos de clique nos botões de criptografar e descriptografar para mostrar o botão de copiar
+    document.getElementById("criptografar").addEventListener("click", function() {
+        document.querySelector(".botao_copiar").style.display = "inline-block";
+    });
+
+    document.getElementById("descriptografar").addEventListener("click", function() {
+        document.querySelector(".botao_copiar").style.display = "inline-block";
+    });
+});
 
