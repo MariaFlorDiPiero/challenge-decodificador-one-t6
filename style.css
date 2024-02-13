@@ -6,20 +6,15 @@
     background-color: #F3F5FC;
 }
 
-body {
-  overflow: hidden;
-}
-
 .container {
   display: flex;
   flex-direction: column;
- 
 }
 
 .logo {
     
-    margin-bottom: 500px;
-    margin-left: 20px;
+    margin: 5%;
+    margin-bottom: 25%;
     
 }
 
@@ -35,11 +30,10 @@ body {
     font-size: 24px;
     text-align: center;
     color: #495057;
-    position: absolute;
     top:0;
     right: 0;
-    margin-right: 2%;
-    margin-top: 2%;
+    margin-left: 1480px;
+    margin-top: -1500px;
   }
 
 .img_menino {
@@ -50,8 +44,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 24px;
-    margin: 70px;
-    margin-top: 20px;
+    margin: 15%;
     align-items: center;
     background-color: #ffffff;
     text-align: center;
@@ -61,8 +54,8 @@ body {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    margin: 70px;
-    margin-top: -40px;
+    margin: 15%;
+    margin-top: 5%;
     background-color: #ffffff;
     text-align: center;
 }
@@ -72,10 +65,8 @@ body {
     color: #0A3871;
     font-size: 32px;    
     border: none;
-    margin-left: 370px;
-    margin-top: 200px;
+    margin-left: 10%;
     height: 400px;
-
 }
 
 .conteudo_caixa::placeholder {
@@ -94,6 +85,7 @@ body {
     font-family: 'Inter', sans-serif;
     color: #ffffff;
     position: absolute;
+    
 }
 
 .botao_descripto {
@@ -139,7 +131,7 @@ body {
     color: #0A3871;
     text-align: center;
     margin-right: 10%;
-    margin-top: -680px;
+    margin-top: -20px;
   }
 
 
@@ -192,5 +184,3 @@ body {
     font-size: 16px;
     cursor: pointer;
 }
-
-  
