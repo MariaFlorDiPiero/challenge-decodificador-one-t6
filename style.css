@@ -6,35 +6,44 @@
     background-color: #F3F5FC;
 }
 
+body {
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
 .logo {
     
     margin-bottom: 500px;
     margin-left: 20px;
     
 }
+
 .conteudo_cripto_pronta {
     display: flex;
-    display: block;
     flex-direction: column;
     background-color: #ffffff;
     width: 400px;
     height: 800px;
-    margin: 0 0 0 1460px;
-    margin-top: -1505px;
     border-radius: 32px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 24px;
     text-align: center;
     color: #495057;
-    padding: 15px;
-    position: relative;    
-}
+    position: absolute;
+    top:0;
+    right: 0;
+    margin-right: 2%;
+    margin-top: 2%;
+  }
 
 .img_menino {
-    margin:30px;
-    margin-top: 200px;    
-    
+    margin:auto;    
 }
 
 .conteudo_nenhuma {
@@ -129,7 +138,11 @@
     font-weight: 400;
     color: #0A3871;
     text-align: center;
-}
+    margin-right: 10%;
+    margin-top: -680px;
+  }
+
+
 
 .linkedin-logo {
     width: 30px;
@@ -162,10 +175,6 @@
     background-color: #ffffff;
 }
 
-.conteudo_rodape {
-    margin-left: -180px;
-}
-
 .conteudo_linkedin {
     margin-left: 815px;
 }
@@ -184,85 +193,4 @@
     cursor: pointer;
 }
 
-/*Media-query para telas de 768px e 1023px (tablets)*/
-
-@media (min-width: 768px) and (max-width: 1023px) {
-    .conteudo_cripto_pronta {
-      width: 80%; 
-      margin: 0 auto;
-    }
   
-    .img_menino {
-      margin: 20px;
-    }
-  
-    .conteudo_nenhuma,
-    .conteudo_digite,
-    .conteudo_caixa {
-      font-size: 20px;
-    }
-  
-    .botao_cripto,
-    .botao_descripto {
-      width: 250px;
-      margin: 0 auto;
-    }
-  
-    .conteudo_alerta {
-      margin-left: -400px;
-    }
-  
-    .imagem_icone {
-      margin-left: 380px;
-    }
-  }
-
-/*media-query para telas menores que 768px (dispositivos móveis) */
-
-@media (max-width: 767px) {
-    .conteudo_cripto_pronta {
-      width: 100%;
-      margin: 0;
-      border-radius: 0;
-    }
-  
-    .img_menino {
-      display: none;
-    }
-  
-    .conteudo_nenhuma,
-    .conteudo_digite,
-    .conteudo_caixa {
-      font-size: 16px;
-    }
-  
-    .botao_cripto,
-    .botao_descripto {
-      width: 100%;
-      margin: 20px 0;
-    }
-  
-    .conteudo_alerta {
-      margin-left: 0;
-    }
-  
-    .imagem_icone {
-      margin: 0 auto;
-    }
-  
-    .caixa_texto_cripto {
-      display: block;
-    }
-  
-    .conteudo_rodape {
-      margin-left: 0;
-    }
-  
-    .conteudo_linkedin {
-      margin-left: 0;
-    }
-  
-    .botao_copiar {
-      display: block;
-    }
-  }
