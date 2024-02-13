@@ -24,4 +24,6 @@ As chaves de criptografia são:
 - Há um campo de texto a ser criptografado e descriptografado.
 - Há um botão de copiar o texto criptografado/descriptografado para a área de transferência.
 
+  ![Tela do decodificador](https://github.com/MariaFlorDiPiero/challenge-decodificador-one-t6/blob/main/Captura%20de%20Tela%20(488).png?raw=true)
+
 
