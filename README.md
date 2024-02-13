@@ -14,14 +14,14 @@ As chaves de criptografia são:
 
 <h2>Requisitos</h2>
 
-Funciona apenas com letras minúsculas.
-Não podem ser utilizadas letras com acentos nem caracteres especiais.
-É possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.
-Por exemplo:
+ - Funciona apenas com letras minúsculas.
+- Não podem ser utilizadas letras com acentos nem caracteres especiais.
+- É possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.
+- Por exemplo:
 "gato" => "gaitober"
 "gaitober" => "gato"
 
-Há um campo de texto a ser criptografado e descriptografado.
-Há um botão de copiar o texto criptografado/descriptografado para a área de transferência.
+- Há um campo de texto a ser criptografado e descriptografado.
+- Há um botão de copiar o texto criptografado/descriptografado para a área de transferência.
 
 
