@@ -26,6 +26,6 @@ As chaves de criptografia são:
 
   ![Tela do decodificador](https://github.com/MariaFlorDiPiero/challenge-decodificador-one-t6/blob/main/Captura%20de%20Tela%20(488).png?raw=true)
 
-Deploy: [Decodificador de texto](https://mariaflordipiero.github.io/challenge-decodificador-one-t6/)
+<h3>Deploy: [Decodificador de texto](https://mariaflordipiero.github.io/challenge-decodificador-one-t6/)</h3>
 
 
